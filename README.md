@@ -12,12 +12,10 @@ When a user has found a title they'd like to watch, it is saved to a watchlist t
 
 ## Dependencies
 
-    Streamlit
-
-    - streamlit
-    - pandas
-    - requests
-    - pickle
+        streamlit
+        pandas
+        requests
+        pickle
 
 ## API key
 
