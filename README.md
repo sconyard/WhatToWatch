@@ -19,9 +19,17 @@ When a user has found a title they'd like to watch it is saved to a watchlist, t
 
 ## API key
 
-You need an API key from The Movie Database API to use this app.  Follow the guide from [TMDB](https://developers.themoviedb.org/3/getting-started/introduction)
+You need an API key from The Movie Database API to use this app. To get started with The Movie Database API, follow the [guide](https://developers.themoviedb.org/3/getting-started/introduction)
+
+## Getting Started
+
+The tool needs to meet the above dependancies, so I would recommend creating a virtual python environment and loading the required modules and libraries into that.  Tools like [Anaconda Navigator](https://docs.anaconda.com/navigator/index.html) make that very simple.
+
+The appilication can be launched by running 'streamlit run watchlist.py' from the directory containing the files
 
 
-Note
+
+
+## Note
 
 The app will save the watchlist in two pickle files user_tv_df.pkl and user_film_df.pkl, so you can keep the watchlist even after closing the app. If you want to start a new watchlist, you need to delete the pickle files.
