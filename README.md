@@ -23,9 +23,15 @@ You need an API key from The Movie Database API to use this app. To get started 
 
 ## Getting Started
 
-The tool needs to meet the above dependancies, so I would recommend creating a virtual python environment and loading the required modules and libraries into that.  Tools like [Anaconda Navigator](https://docs.anaconda.com/navigator/index.html) make that very simple.
+Download the files in this repo.
 
-The appilication can be launched by running 'streamlit run watchlist.py' from the directory containing the files
+The app needs to meet the above dependancies, so I would recommend creating a virtual python environment and loading the required modules and libraries into that.  Tools like [Anaconda Navigator](https://docs.anaconda.com/navigator/index.html) make that very simple.
+
+The app can be launched by running;
+
+    streamlit run watchlist.py 
+    
+from the directory containing the files.
 
 
 
