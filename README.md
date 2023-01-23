@@ -27,11 +27,15 @@ Download the files in this repo.
 
 The app needs to meet the above dependancies, so I would recommend creating a virtual python environment and loading the required modules and libraries into that.  Tools like [Anaconda Navigator](https://docs.anaconda.com/navigator/index.html) make that very simple.
 
-The app can be launched by running;
+Launch a terminal session in your virtual pythin environment and navigate to the location containing the files. 
+
+The app can be launched by running the following command from the directory containing the files.
 
     streamlit run watchlist.py 
     
-from the directory containing the files.
+The app will be hosted at
+
+    http://localhost:8501
 
 
 
