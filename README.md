@@ -27,12 +27,12 @@ The app is built using streamlit to provide the layout, text inputs, buttons and
 
 Requests queries multiple APIs, to build up the information that is presented back to the users.  The APIs that are queried can be catagorised as;
 
-    - Discover
-    - Genre
-    - Search
-    - Details
-    - Similar
-    - Watch Provider
+        Discover
+        Genre
+        Search
+        Details
+        Similar
+        Watch Provider
 
 There are different API endpoints for TV and Movies.
 
@@ -50,11 +50,11 @@ Launch a terminal session in your virtual python environment and navigate to the
 
 The app can be launched by running the following command from the directory containing the files.
 
-    streamlit run watchlist.py 
+        streamlit run watchlist.py 
     
 The app will be hosted at
 
-    http://localhost:8501
+        http://localhost:8501
 
 ## How to use
 
@@ -114,9 +114,9 @@ An empty pickle file will generate an error in the watchlist page, if you get an
 
 If the pickle files corrupt they will need to be recreated, the simplest way to do that is to create the required dataframes and save new pickle files.  The structure of each watchlist dataframe is the same, the command to recreate them are below, for the film watchlist just substitute 'tv' for 'film'
 
-    user_tv_df = pd.DataFrame(columns=['name', 'overview', 'popularity', 'vote_average', 'vote_count', 'id'])
-    with open('user_tv_df.pkl', 'wb') as f:
-        pickle.dump(user_tv_df, f)
+        user_tv_df = pd.DataFrame(columns=['name', 'overview', 'popularity', 'vote_average', 'vote_count', 'id'])
+        with open('user_tv_df.pkl', 'wb') as f:
+                pickle.dump(user_tv_df, f)
         
 ###  Region
 
