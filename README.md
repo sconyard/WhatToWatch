@@ -123,3 +123,7 @@ If the pickle files corrupt they will need to be recreated, the simplest way to 
 I'm in the UK, some of the API calls are hardcoded to the UK as I had no need to see what's available in other regions. Following the methods in this code adding a region lookup should be straightforward. 
 
 The searches via with watch providers selected require a region element, the part of the api query that sets that is ***'&watch_region=XXX'***
+
+###  API Attribution
+
+All APIs are hosted by [The Movie Database](https://www.themoviedb.org/), with Watch provider information provided by [JustWatch](https://www.justwatch.com/)
