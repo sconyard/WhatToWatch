@@ -39,6 +39,8 @@ The app will be hosted at
 
 
 
+![First Launch](https://github.com/sconyard/WhatToWatch/blob/c5c03baec6763824666c641b7a04fc5069457ed1/media/Watchlist%20Homepage.png)
+
 
 ## Note
 
