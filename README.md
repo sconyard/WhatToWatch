@@ -12,10 +12,10 @@ When a user has found a title they'd like to watch, it is saved to a watchlist t
 
 ## Dependencies
 
-    streamlit
-    pandas
-    requests
-    pickle
+    - streamlit
+    - pandas
+    - requests
+    - pickle
 
 ## API key
 
@@ -27,12 +27,12 @@ The app is built using streamlit to provide the layout, text inputs, buttons and
 
 Requests queries multiple APIs, to build up the information that is presented back to the users.  The APIs that are queried can be catagorised as;
 
-    Discover
-    Genre
-    Search
-    Details
-    Similar
-    Watch Provider
+    - Discover
+    - Genre
+    - Search
+    - Details
+    - Similar
+    - Watch Provider
 
 There are different API endpoints for TV and Movies.
 
