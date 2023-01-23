@@ -2,7 +2,7 @@
 
 "What are we watching tonight...." followed by mindless scrolling through streaming provider interfaces looking for something interesting...  Sound familiar?  You need to use WhattoWatch!
 
-WhatToWatch is a python app developed using Streamlit, using information provided by [The Movie Database API](https://www.themoviedb.org/) that allows users to discover and explore TV shows and Films and save those you want to watch to a watchlist.
+WhatToWatch is a python app developed using [Streamlit](https://streamlit.io/), using information provided by [The Movie Database API](https://www.themoviedb.org/) that allows users to discover and explore TV shows and Films and save those you want to watch to a watchlist.
 
 A user can browse titles by genre across all available streaming providers, search across genres within a single streaming provider or it they are looking for a specific title they can search for it directly.  When searching by genre the most popular rank titles are provided first, all returned results include popularity, vote average and vote counts. 
 
@@ -21,6 +21,23 @@ When a user has found a title they'd like to watch it is saved to a watchlist, t
 
 You need an API key from The Movie Database API to use this app. To get started with The Movie Database API, follow the [guide](https://developers.themoviedb.org/3/getting-started/introduction)
 
+## How does it work?
+
+The app is built using streamlit to provides the layout, text inputs, buttons and wraps around the core functions of the various api lookups, the dataframes that are built and the pickle files.
+
+Requests queries multiple APIs, to build up the information that is presented back to the users.  The APIs that are queried can be catagorised as;
+
+    Discover
+    Genre
+    Search
+    Details
+    Similar
+    Watch Provider
+
+There are different API endpoints for TV and Movies
+
+Pandas is used to hold the information and where required pass it on to the other queries. The watchlists are loaded from pickle files, each time a row is added to the dataframe via the ***add to our list*** button the whole pickle file is updated.  Entries are removed using a similar method.
+
 ## Getting Started
 
 Download the files in this repo.
@@ -37,10 +54,19 @@ The app will be hosted at
 
     http://localhost:8501
 
+## How to use
 
+When accessing the app the homepage is a view of the TV and Film watchlists, in expandable sections to make it easier to browse initially for what you want to access.
 
-![First Launch](https://github.com/sconyard/WhatToWatch/blob/c5c03baec6763824666c641b7a04fc5069457ed1/media/Watchlist%20Homepage.png)
+![Watchlist](https://github.com/sconyard/WhatToWatch/blob/c5c03baec6763824666c641b7a04fc5069457ed1/media/Watchlist%20Homepage.png)
 
+Each watchlist can be expanded to browse, the first part is the information for all titles on the watchlist
+
+![watchlist detail](https://github.com/sconyard/WhatToWatch/blob/615fdf437d4cc0e6e5a569540ea8966d9327aa0a/media/Watchlist%202.png)
+
+Titles of interest can be selected from the dropdown list, and information regarding the title is presented.  This is where there is and option to remove title being browsed from the watchlist.
+
+![watchlist detail](https://github.com/sconyard/WhatToWatch/blob/615fdf437d4cc0e6e5a569540ea8966d9327aa0a/media/Watchlist%201.png)
 
 ## Note
 
