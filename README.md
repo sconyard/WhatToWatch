@@ -1,6 +1,10 @@
 # WhatToWatch
 
-"What are we watching tonight...." followed by mindless scrolling through streaming provider interfaces looking for something interesting...  Sound familiar?  You need to use WhattoWatch!
+"What are we watching tonight...." 
+
+followed by mindless scrolling through streaming provider interfaces looking for something interesting...  
+
+Sound familiar?  You need to use WhattoWatch!
 
 WhatToWatch is a python app developed using [Streamlit](https://streamlit.io/), using information provided by [The Movie Database API](https://www.themoviedb.org/) and [JustWatch](https://www.justwatch.com/) that allows users to discover and explore TV shows and Films and save those you want to watch to a watchlist.
 
