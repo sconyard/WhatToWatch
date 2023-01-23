@@ -126,4 +126,4 @@ The searches via with watch providers selected require a region element, the par
 
 ###  API Attribution
 
-All APIs are hosted by [The Movie Database](https://www.themoviedb.org/), with Watch provider information provided by [JustWatch](https://www.justwatch.com/)
+All APIs are hosted by [The Movie Database](https://www.themoviedb.org/), with Watch Provider information provided by [JustWatch](https://www.justwatch.com/)
